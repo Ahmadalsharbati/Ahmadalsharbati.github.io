@@ -1,3 +1,24 @@
+// ===== Dark / Light Mode Toggle =====
+const themeToggle = document.getElementById("themeToggle");
+const body = document.body;
+
+// عند فتح الصفحة، تحقق إذا كان المستخدم اختار وضع فاتح قبل هيك
+if (localStorage.getItem("theme") === "light") {
+    body.classList.add("light-mode");
+    themeToggle.textContent = "☀️";
+}
+
+themeToggle.addEventListener("click", function () {
+    body.classList.toggle("light-mode");
+
+    if (body.classList.contains("light-mode")) {
+        themeToggle.textContent = "☀️";
+        localStorage.setItem("theme", "light");
+    } else {
+        themeToggle.textContent = "🌙";
+        localStorage.setItem("theme", "dark");
+    }
+});
 // ===== 1. Menu hamburger (mobile) =====
 const hamburger = document.getElementById("hamburger");
 const navLinks = document.getElementById("navLinks");
