@@ -103,3 +103,15 @@ tiltCards.forEach(function (card) {
         card.style.boxShadow = "none";
     });
 });
+// ===== CV Dropdown =====
+const cvButton = document.getElementById("cvButton");
+const cvMenu = document.getElementById("cvMenu");
+
+cvButton.addEventListener("click", function (e) {
+    e.stopPropagation();
+    cvMenu.classList.toggle("active");
+});
+
+document.addEventListener("click", function () {
+    cvMenu.classList.remove("active");
+});
