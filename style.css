@@ -254,6 +254,83 @@ section h2 {
     max-width: 500px;
     margin: 0 auto;
 }
+/* ===== Projects réels avec images ===== */
+/* ===== Projects réels avec images (design amélioré) ===== */
+.projects-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.project-card-full {
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-radius: 16px;
+    padding: 30px;
+    backdrop-filter: blur(10px);
+    transition: border-color 0.3s;
+}
+
+.project-card-full:hover {
+    border-color: var(--purple);
+}
+
+.project-card-full h3 {
+    color: var(--purple);
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.project-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+.project-images img {
+    width: 100%;
+    aspect-ratio: 16 / 10;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 1px solid var(--card-border);
+    display: block;
+}
+
+.project-card-full p {
+    color: var(--text-gray);
+    font-size: 14px;
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+.project-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+}
+
+.project-tags span {
+    background: rgba(139, 92, 246, 0.15);
+    color: var(--purple);
+    padding: 6px 14px;
+    border-radius: 15px;
+    font-size: 12px;
+}
+
+@media (max-width: 600px) {
+    .project-images {
+        grid-template-columns: 1fr;
+    }
+}
+/* Responsive : على الموبايل، الصور فوق النص بدل جنبه */
+@media (max-width: 768px) {
+    .project-card-full {
+        grid-template-columns: 1fr;
+    }
+}
 
 .projects-grid {
     display: grid;
