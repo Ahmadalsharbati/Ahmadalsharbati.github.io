@@ -93,6 +93,9 @@ body {
     text-decoration: none;
     font-size: 13px;
     transition: all 0.3s;
+    background: transparent;
+    cursor: pointer;
+    font-family: inherit;
 }
 
 .btn-download:hover {
@@ -398,7 +401,12 @@ section h2 {
     color: var(--text-gray);
     margin-bottom: 30px;
 }
-
+.contact-email {
+    color: var(--purple);
+    font-size: 15px;
+    margin-top: 15px;
+    font-weight: bold;
+}
 .contact-details {
     margin-top: 20px;
     font-size: 14px;
@@ -517,4 +525,41 @@ footer {
 .timeline-item {
     transform-style: preserve-3d;
     transition: transform 0.1s ease, box-shadow 0.3s ease;
+}
+/* ===== CV Dropdown ===== */
+.cv-dropdown {
+    position: relative;
+}
+
+.cv-menu {
+    display: none;
+    position: absolute;
+    top: 110%;
+    right: 0;
+    background: rgba(10, 10, 18, 0.95);
+    border: 1px solid var(--card-border);
+    border-radius: 12px;
+    padding: 10px;
+    min-width: 260px;
+    backdrop-filter: blur(10px);
+    z-index: 300;
+}
+
+.cv-menu.active {
+    display: block;
+}
+
+.cv-menu a {
+    display: block;
+    padding: 10px 14px;
+    color: var(--text-light);
+    text-decoration: none;
+    font-size: 13px;
+    border-radius: 8px;
+    transition: background 0.2s;
+}
+
+.cv-menu a:hover {
+    background: rgba(139, 92, 246, 0.15);
+    color: var(--purple);
 }
