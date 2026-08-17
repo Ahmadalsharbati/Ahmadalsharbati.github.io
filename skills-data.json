@@ -16,6 +16,7 @@
     ],
     "Autres outils": [
         { "nom": "Bases de données relationnelles", "niveau": "Intermédiaire" },
-        { "nom": "Spline", "niveau": "Débutant" }
+        { "nom": "Spline", "niveau": "Débutant" },
+        { "nom": "Google Workspace", "niveau": "Débutant"}
     ]
 }
