@@ -1,0 +1,21 @@
+{
+    "Développement": [
+        { "nom": "HTML / CSS", "niveau": "Débutant" },
+        { "nom": "SQL", "niveau": "Débutant" },
+        { "nom": "Java (bases)", "niveau": "Débutant" },
+        { "nom": "Algorithmique", "niveau": "Intermédiaire" }
+    ],
+    "No-Code / Low-Code": [
+        { "nom": "n8n", "niveau": "Intermédiaire" },
+        { "nom": "Make", "niveau": "Intermédiaire" },
+        { "nom": "Airtable", "niveau": "Intermédiaire" },
+        { "nom": "Coda", "niveau": "Débutant" },
+        { "nom": "Figma", "niveau": "Débutant" },
+        { "nom": "Wix", "niveau": "Intermédiaire" },
+        { "nom": "Kssar", "niveau": "Intermédiaire" }
+    ],
+    "Autres outils": [
+        { "nom": "Bases de données relationnelles", "niveau": "Intermédiaire" },
+        { "nom": "Spline", "niveau": "Débutant" }
+    ]
+}

@@ -1,0 +1,22 @@
+[
+    {
+        "titre": "Stage d'observation en Web Methods (1 mois)",
+        "organisation": "NEODATA — 2026 — Toulouse",
+        "description": "Utilisation de Postman pour tester des API REST. Lecture et analyse des réponses au format JSON."
+    },
+    {
+        "titre": "Stage d'observation en Web Methods (1 mois)",
+        "organisation": "NEODATA — 2025 — Toulouse",
+        "description": "Découverte d'une plateforme d'intégration. Installation et configuration de l'environnement de travail. Compréhension des flux applicatifs et de l'architecture logicielle."
+    },
+    {
+        "titre": "Fondateur & Enseignant — École de musique",
+        "organisation": "2018 — 2021 — Hébron (Palestine)",
+        "description": "Fondation et pilotage de l'école : définition de la stratégie pédagogique et gestion globale. Recrutement, sélection et coordination des professeurs. Enseignement du Oud (musique orientale)."
+    },
+    {
+        "titre": "Fondateur & Gérant — Café littéraire",
+        "organisation": "2017 — 2020 — Hébron (Palestine)",
+        "description": "Création et gestion complète de l'établissement (aspects financiers, logistiques et administratifs). Management d'équipe : recrutement, formation et encadrement. Conception et organisation d'événements culturels."
+    }
+]
