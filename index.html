@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmad Sharabati | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="page-wrapper">
+
+    <header class="navbar">
+        <button id="themeToggle" class="theme-toggle">🌙</button>
+        <div class="logo">AS</div>
+
+        <button class="hamburger" id="hamburger">☰</button>
+
+        <nav class="nav-links" id="navLinks">
+            <a href="#home">Accueil</a>
+            <a href="#about">À propos</a>
+            <a href="#skills">Compétences</a>
+            <a href="#experience">Expérience</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+       <div class="cv-dropdown">
+    <button class="btn-download" id="cvButton">Télécharger mon CV ⬇</button>
+    <div class="cv-menu" id="cvMenu">
+        <a href="CV-Ahmad-Sharabati-Developpeur.pdf" download>Concepteur Développeur d'Applications</a>
+        <a href="CV-Ahmad-Sharabati-NoCode.pdf" download>No-Code / Low-Code</a>
+    </div>
+</div>
+
+    </header>
+    <section id="home" class="hero">
+        <div class="hero-content">
+        <span class="badge">Concepteur - Développeur d'Applications</span>
+
+        <h1>Je transforme les idées<br>en <span class="highlight">projets concrets</span></h1>
+
+        <p class="hero-text">
+            Passionné par le numérique, avec un intérêt particulier pour l'automatisation.
+            Actuellement à la recherche d'une alternance pour la formation de
+            concepteur développeur d'applications.
+        </p>
+
+        <a href="#about" class="btn-primary">En savoir plus →</a>
+
+        <div class="social-icons">
+            <a href="mailto:ahmadsharabti.53@gmail.com">Email</a>
+            <a href="https://www.linkedin.com/in/ahmad-alsharbati-17601141a/" target="_blank">LinkedIn</a>
+            <a href="https://github.com/Ahmadalsharbati" target="_blank">GitHub</a>
+        </div>
+
+        <div class="avatar-placeholder">AS</div>
+        </div>
+    </section>
+    <section id="about" class="about">
+        <h2>À propos de moi</h2>
+        <p>
+            Passionné par le numérique, avec un intérêt particulier pour l'automatisation,
+            je me forme en autodidacte depuis 2024. Artiste, mécanicien, mais aussi
+            entrepreneur, j'aime créer et innover, transformer des idées en projets
+            concrets et trouver des solutions logiques aux problèmes. Motivé, curieux
+            et disposant d'une grande capacité d'adaptation, je suis actuellement à
+            la recherche d'une alternance pour débuter la formation qualifiante de
+            concepteur développeur d'application au sein de l'AFPA.
+        </p>
+    </section>
+    <section id="skills" class="skills">
+    <h2>Compétences</h2>
+
+    <h3 class="skills-subtitle">Développement</h3>
+    <div class="skills-grid">
+        <div class="skill-item">
+            <span class="skill-name">HTML / CSS</span>
+            <span class="skill-badge badge-debutant">Débutant</span>
+        </div>
+        <div class="skill-item">
+            <span class="skill-name">SQL</span>
+            <span class="skill-badge badge-debutant">Débutant</span>
+        </div>
+        <div class="skill-item">
+            <span class="skill-name">Java (bases)</span>
+            <span class="skill-badge badge-debutant">Débutant</span>
+        </div>
+        <div class="skill-item">
+            <span class="skill-name">Algorithmique</span>
+            <span class="skill-badge badge-intermediaire">Intermédiaire</span>
+        </div>
+    </div>
+
+    <h3 class="skills-subtitle">No-Code / Low-Code</h3>
+    <div class="skills-grid">
+        <div class="skill-item">
+            <span class="skill-name">n8n</span>
+            <span class="skill-badge badge-intermediaire">Intermédiaire</span>
+        </div>
+        <div class="skill-item">
+            <span class="skill-name">Make</span>
+            <span class="skill-badge badge-intermediaire">Intermédiaire</span>
+        </div>
+        <div class="skill-item">
+            <span class="skill-name">Airtable</span>
+            <span class="skill-badge badge-intermediaire">Intermédiaire</span>
+        </div>
+        <div class="skill-item">
+            <span class="skill-name">Coda</span>
+            <span class="skill-badge badge-debutant">Débutant</span>
+        </div>
+        <div class="skill-item">
+            <span class="skill-name">Figma</span>
+            <span class="skill-badge badge-debutant">Débutant</span>
+        </div>
+        <div class="skill-item">
+            <span class="skill-name">Wix</span>
+            <span class="skill-badge badge-intermediaire">Intermédiaire</span>
+        </div>
+        <div class="skill-item">
+            <span class="skill-name">Kssar</span>
+            <span class="skill-badge badge-intermediaire">Intermédiaire</span>
+        </div>
+    </div>
+
+    <h3 class="skills-subtitle">Autres outils</h3>
+    <div class="skills-grid">
+        <div class="skill-item">
+            <span class="skill-name">Bases de données relationnelles</span>
+            <span class="skill-badge badge-intermediaire">Intermédiaire</span>
+        </div>
+        <div class="skill-item">
+            <span class="skill-name">Spline</span>
+            <span class="skill-badge badge-debutant">Débutant</span>
+        </div>
+    </div>
+</section>
+    <section id="projects" class="projects">
+    <h2>Projets</h2>
+
+    <div class="projects-grid">
+
+        <div class="project-card-full">
+            <h3>Automatisation de recherche d'emploi</h3>
+            <div class="project-images">
+                <img src="images/job-workflow.png" alt="Workflow d'automatisation de recherche d'emploi">
+                <img src="images/job-airtable.png" alt="Résultats dans Airtable">
+            </div>
+            <p>
+                Workflow n8n qui collecte automatiquement les offres d'emploi et
+                d'alternance depuis Google Jobs, analyse chaque offre avec l'IA,
+                compare les compétences requises avec mon profil, et calcule un
+                score de correspondance. Au-delà de 70%, une lettre de motivation
+                personnalisée est générée automatiquement par IA. Tout est organisé
+                dans Airtable avec un suivi par statut (Nouveau / Postulé / Rejeté).
+            </p>
+            <div class="project-tags">
+                <span>n8n</span>
+                <span>IA</span>
+                <span>Airtable</span>
+                <span>APIs</span>
+            </div>
+        </div>
+
+        <div class="project-card-full">
+            <h3>Automatisation de synthèse de réunions</h3>
+            <div class="project-images">
+                <img src="images/meeting-workflow.png" alt="Scénario d'automatisation de réunions">
+                <img src="images/meeting-airtable.png" alt="Tâches générées dans Airtable">
+            </div>
+            <p>
+                Scénario Make qui traite les transcriptions de réunions Google Meet,
+                génère automatiquement un résumé structuré, identifie les tâches à
+                accomplir, les assigne à chaque membre de l'équipe avec une échéance,
+                puis organise le tout dans Airtable.
+            </p>
+            <div class="project-tags">
+                <span>Make</span>
+                <span>IA</span>
+                <span>Airtable</span>
+                <span>Google Meet</span>
+            </div>
+        </div>
+
+        <div class="project-card-full">
+            <h3>Luth&Co — Location d'instruments de musique</h3>
+            <div class="project-images">
+                <img src="images/luthco-home.png" alt="Page d'accueil Luth&Co">
+                <img src="images/luthco-catalog.png" alt="Catalogue Luth&Co">
+            </div>
+            <p>
+                Plateforme No-Code de location d'instruments de musique, développée
+                dans le cadre de ma formation. Catalogue d'instruments par marque,
+                système de réservation et interface utilisateur soignée.
+            </p>
+            <div class="project-tags">
+                <span>No-Code</span>
+                <span>UI/UX</span>
+                <span>Base de données</span>
+            </div>
+        </div>
+
+    </div>
+</section>
+    <section id="experience" class="experience">
+        <h2>Expérience & Formation</h2>
+
+        <div class="timeline">
+            <div class="timeline-item">
+                <h3>Stage d'observation en Web Methods (1 mois)</h3>
+                <span class="timeline-date">NEODATA — 2026 — Toulouse</span>
+                <p>Utilisation de Postman pour tester des API REST. Lecture et analyse des réponses au format JSON.</p>
+            </div>
+
+            <div class="timeline-item">
+                <h3>Stage d'observation en Web Methods (1 mois)</h3>
+                <span class="timeline-date">NEODATA — 2025 — Toulouse</span>
+                <p>Découverte d'une plateforme d'intégration. Installation et configuration de l'environnement de travail. Compréhension des flux applicatifs et de l'architecture logicielle.</p>
+            </div>
+
+            <div class="timeline-item">
+                <h3>Fondateur & Enseignant — École de musique</h3>
+                <span class="timeline-date">2018 — 2021 — Hébron (Palestine)</span>
+                <p>Fondation et pilotage de l'école : définition de la stratégie pédagogique et gestion globale. Recrutement, sélection et coordination des professeurs. Enseignement du Oud (musique orientale).</p>
+            </div>
+
+            <div class="timeline-item">
+                <h3>Fondateur & Gérant — Café littéraire</h3>
+                <span class="timeline-date">2017 — 2020 — Hébron (Palestine)</span>
+                <p>Création et gestion complète de l'établissement (aspects financiers, logistiques et administratifs). Management d'équipe : recrutement, formation et encadrement. Conception et organisation d'événements culturels.</p>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="contact">
+        <h2>Me contacter</h2>
+        <p>Intéressé par une alternance ou une collaboration ? Contactez-moi.</p>
+            <a href="mailto:ahmadsharabti.53@gmail.com" class="btn-primary">
+            M'écrire ✉
+            </a>
+            <p class="contact-email">ahmadsharabti.53@gmail.com</p>
+            <p class="contact-details">
+            📍 1 Sq. des Hautes Ourmes, 35200 Rennes &nbsp;|&nbsp; 📞 07 49 25 95 92
+        </p>
+    </section>
+
+    <footer>
+        <p>© 2026 Ahmad Alsharbati. Tous droits réservés.</p>
+    </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
