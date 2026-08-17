@@ -9,18 +9,7 @@ hamburger.addEventListener("click", function () {
 // ===== Animation des barres de compétences =====
 const skillBars = document.querySelectorAll(".skill-fill");
 
-const observer = new IntersectionObserver(function (entries) {
-    entries.forEach(function (entry) {
-        if (entry.isIntersecting) {
-            const targetWidth = entry.target.getAttribute("data-width");
-            entry.target.style.width = targetWidth;
-        }
-    });
-}, { threshold: 0.2 });
 
-skillBars.forEach(function (bar) {
-    observer.observe(bar);
-});
 
 // ===== Lien actif dans le menu selon le scroll =====
 const sections = document.querySelectorAll("section, .hero");
